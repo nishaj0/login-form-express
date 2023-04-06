@@ -107,57 +107,69 @@ button {
 }
 
 @media screen and (max-width: 550px) {
-   .background{
+   .background {
       width: 350px;
       height: 440px;
    }
-   .background .shape{
+
+   .background .shape {
       height: 170px;
       width: 170px;
    }
-   form{
+
+   form {
       height: 500px;
       width: 350px;
       padding: 30px 20px;
    }
-   .header h3{
+
+   .header h3 {
       font-size: 24px;
    }
-   label{
+
+   label {
       margin-top: 25px;
       font-size: 18px;
    }
-   input{
+
+   input {
       height: 40px;
    }
-   button{
+
+   button {
       padding: 10px 0;
       font-size: 18px;
    }
 
 }
+
 @media screen and (max-width: 350px) {
-   .background{
+   .background {
       width: 250px;
       height: 330px;
    }
-   .background .shape{
+
+   .background .shape {
       height: 130px;
       width: 130px;
    }
-   form{
+
+   form {
       height: 400px;
       width: 280px;
       padding: 20px 15px;
    }
-   .header h3{
+
+   .header h3 {
       font-size: 22px;
    }
-   label{
+
+   label {
       font-size: 16px;
       margin-top: 15px;
    }
-   button{
+
+   button {
       font-size: 16px;
       margin-top: 25px;
    }
