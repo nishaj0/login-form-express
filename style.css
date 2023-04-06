@@ -74,7 +74,7 @@ form * {
 label {
    display: block;
    margin-top: 30px;
-   font-size: 16px;
+   font-size: 20px;
    font-weight: 500;
 }
 
@@ -100,9 +100,65 @@ button {
    background-color: #ffffff;
    color: #080710;
    padding: 15px 0;
-   font-size: 18px;
+   font-size: 22px;
    font-weight: 600;
    border-radius: 5px;
    cursor: pointer;
 }
 
+@media screen and (max-width: 550px) {
+   .background{
+      width: 350px;
+      height: 440px;
+   }
+   .background .shape{
+      height: 170px;
+      width: 170px;
+   }
+   form{
+      height: 500px;
+      width: 350px;
+      padding: 30px 20px;
+   }
+   .header h3{
+      font-size: 24px;
+   }
+   label{
+      margin-top: 25px;
+      font-size: 18px;
+   }
+   input{
+      height: 40px;
+   }
+   button{
+      padding: 10px 0;
+      font-size: 18px;
+   }
+
+}
+@media screen and (max-width: 350px) {
+   .background{
+      width: 250px;
+      height: 330px;
+   }
+   .background .shape{
+      height: 130px;
+      width: 130px;
+   }
+   form{
+      height: 400px;
+      width: 280px;
+      padding: 20px 15px;
+   }
+   .header h3{
+      font-size: 22px;
+   }
+   label{
+      font-size: 16px;
+      margin-top: 15px;
+   }
+   button{
+      font-size: 16px;
+      margin-top: 25px;
+   }
+}
